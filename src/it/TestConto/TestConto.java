@@ -8,6 +8,7 @@ public class TestConto {
 		// TODO Auto-generated method stub
 		ContoCorrente accountHolder = new ContoCorrente("Marco",1000);
 		Scanner sc = new Scanner(System.in);
+		sc.close();
 		
 		boolean point = true;
 		System.out.println("Buongiorno Sig."+accountHolder.getName());
